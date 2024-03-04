@@ -11,7 +11,8 @@ div#container header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: silver;
+  height: 18%;
   padding: 15px;
 }
 div#container header img {
@@ -22,7 +23,7 @@ div#container header h6 {
   color: white;
   font-style: italic;
   font-size: 1.5em;
-  width: auto;
+  width: 20em;
   opacity: 80%;
 }
 div#container nav {
@@ -40,11 +41,27 @@ div#container nav ul a {
   margin-left: 1.5em;
   border: 0.5 solid white;
   padding: 8px 15px;
-  border: 1px solid #fff; /* Add border styling */
-  border-radius: 5px; /* Optional: Add rounded corners */
+  border: 1px solid #fff;
+  background-color: black;
+  /* Add border styling */
+  border-radius: 5px;
+  /* Optional: Add rounded corners */
 }
 div#container nav ul a:hover {
   color: red;
   background-color: white;
   transition: 1s;
+}
+div#container div#under-nav {
+  width: 100vw;
+  height: 2.5em;
+  background-color: white;
+}
+div#container div#under-nav ul {
+  justify-content: space-between;
+}
+div#container div#under-nav ul a {
+  text-decoration: none;
+  color: black;
+  margin-left: 2rem;
 }/*# sourceMappingURL=style.css.map */
